@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="pz3-5.css">
+    <title>Наши работы</title>
+    <style>
+        body{
+            margin: 0;
+            background: url(img/bg.jpg) no-repeat;
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+        }
+        .menu5 ul{list-style-type: none;}
+        .menu5 li{margin-right: 4px; float: left;}
+        .menu5 a:link, .menu5 a:visited{
+            text-decoration: none;
+            color: white;
+            font: 50px Arial;
+            padding: 5px;
+        }
+        .menu5 a:hover, .menu5 a.active{
+            color: white;
+            background-color: rgb(58, 52, 52);
+            border-color: black;
+        }
+        h1{
+            margin-bottom: -120px;
+            font-family: "comic sans ms";
+        }
+        h2{
+            font-size: 700%;
+            font-family: "brush script mt";
+        }
+        .logo-text{
+            text-align: center;
+        }
+        .slides {
+            width: 1000px;
+            height: 500px;
+        }
+        
+        img {
+            display: none;
+            padding-left: 720px;
+        }
+        
+        .block {
+            display: block;
+            object-fit: cover;
+            width: 60%;
+            height: 60%;
+        }
+        .btnRight{
+            margin-left: 930px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo-text" >
+        <h1><font color = "white" >Установка пластиковых окон</font></h1>
+        <h2><font color = "white">Окошкино</font></h2>
+    </div>
+    <table class="menu5" border="0" height="50" width="100%" align="center">
+        <tr width="100%">
+            <td width="30%" align="left"><h3><a href="1-ya.html">Главная</a></h3></td>
+            <td width="30%" align="center"><h3><a href="2-ya.html">Наши работы</a></h3></td>
+            <td width="30%" align="right"><h3><a href="3-ya.html">О нас</a></h3></td>
+        </tr>
+    </table>
+    <div class="slides">
+        <img src="img/okno.png" class="block" alt="">
+        <img src="img/okno2.webp" alt="">
+        <img src="img/okno3.jpg" alt="">
+        <img src="img/okno4.jpg" alt="">
+    </div>
+    <button class="btnRight">Следующая картинка</button>
+    <script src="js.js" class="btnRight"></script>
+</body>
+</html>
